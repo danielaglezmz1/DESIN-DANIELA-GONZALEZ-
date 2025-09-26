@@ -9,19 +9,19 @@
 /* Encontrar los errores que tiene el siguiente script, usando las herramientas de depuración de Google Chrome */
 
 var nombres=[];
-
-var NUMERO_NOMBRES=10;
+var CADENA_NOMBRES;
+var numeroNombres=10;
 
 
 
 
 for (var i=0;i<numeroNombres-1;i++){
-	nombres[i]=promp("Introduce un nombre","Agapito");
+	nombres[i]=prompt("Introduce un nombre");
 } 
 
 
  for (var i=0;i<numeroNombres;i+1){
-	CADENA_NOMBRES=CADEN_ANOMBRES+"nombres[i]"+" ";
+	CADENA_NOMBRES=CADENA_NOMBRES+"nombres[i]"+" ";
 } 
  alert(nombres[i]);
  
